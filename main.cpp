@@ -10,7 +10,7 @@ int main(int arg, char* argv[]){
     });
 
     char* port = getenv("PORT");
-    uint16_t iPort = static_cast<usint16_t>(port != NULL ? stoi(port) : 18080);
+    uint16_t iPort = static_cast<uint16_t>(port != NULL ? stoi(port) : 18080);
     cout << "PORT = " << iPort << "\n";
     app.port(iPort).multithreaded().run();
 }
