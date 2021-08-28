@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/shopping_cart.dir/main.cpp.o -o shopping_cart  /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib 
+/usr/bin/c++ CMakeFiles/shopping_cart.dir/main.cpp.o -o shopping_cart  /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so -pthread 

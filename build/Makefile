@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.21.1/bin/cmake
+CMAKE_COMMAND = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.21.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.21.1/bin/cmake -E rm -f
+RM = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.21.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/thucphan/Documents/Projects/shopping_cart
+CMAKE_SOURCE_DIR = /home/jcruz/projects/shopping_cart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/thucphan/Documents/Projects/shopping_cart/build
+CMAKE_BINARY_DIR = /home/jcruz/projects/shopping_cart/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/thucphan/Documents/Projects/shopping_cart/build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.21.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/linuxbrew/.linuxbrew/Cellar/cmake/3.21.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.21.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/linuxbrew/.linuxbrew/Cellar/cmake/3.21.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thucphan/Documents/Projects/shopping_cart/build/CMakeFiles /Users/thucphan/Documents/Projects/shopping_cart/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcruz/projects/shopping_cart/build/CMakeFiles /home/jcruz/projects/shopping_cart/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thucphan/Documents/Projects/shopping_cart/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcruz/projects/shopping_cart/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

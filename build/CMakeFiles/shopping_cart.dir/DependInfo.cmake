@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/thucphan/Documents/Projects/shopping_cart/main.cpp" "CMakeFiles/shopping_cart.dir/main.cpp.o" "gcc" "CMakeFiles/shopping_cart.dir/main.cpp.o.d"
+  "/home/jcruz/projects/shopping_cart/main.cpp" "CMakeFiles/shopping_cart.dir/main.cpp.o" "gcc" "CMakeFiles/shopping_cart.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,3 +1,3 @@
-/Users/thucphan/Documents/Projects/shopping_cart/build/CMakeFiles/rebuild_cache.dir
-/Users/thucphan/Documents/Projects/shopping_cart/build/CMakeFiles/edit_cache.dir
-/Users/thucphan/Documents/Projects/shopping_cart/build/CMakeFiles/shopping_cart.dir
+/home/jcruz/projects/shopping_cart/build/CMakeFiles/rebuild_cache.dir
+/home/jcruz/projects/shopping_cart/build/CMakeFiles/shopping_cart.dir
+/home/jcruz/projects/shopping_cart/build/CMakeFiles/edit_cache.dir
